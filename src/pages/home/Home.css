@@ -1,0 +1,15 @@
+.social_handle_container {
+  margin: -5% 30% 0% !important;
+}
+
+.t_social {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.logo_image {
+  width: 80vw;
+  margin: auto;
+  margin-top: 5vh;
+  display: flex;
+}

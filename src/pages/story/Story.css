@@ -1,0 +1,17 @@
+.story_image {
+  width: 80%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  margin: auto !important;
+}
+
+.t_story {
+  font-size: 0.6em;
+}
+
+.story_container {
+  color: #fff;
+  height: 90vh;
+  flex-wrap: wrap;
+}
