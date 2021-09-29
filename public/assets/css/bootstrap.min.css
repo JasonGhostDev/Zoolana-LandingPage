@@ -9483,8 +9483,8 @@ a.text-dark:hover {
   background: url('/assets/images/Layer-72.jpg') repeat;
   filter: brightness(90%);
 }
-.menu-section .bg-dark {
-  background-color: #737577 !important;
+.menu-section .bg-dark .navbar-nav {
+  background-color: #9c9d9e !important;
   border-radius: 16px;
 }
 .menu-section .bg-dark li.active {
@@ -9493,4 +9493,12 @@ a.text-dark:hover {
 .menu-section .navbar .navbar-nav .nav-link {
   color: #fff;
 }
-
+.bg-dark {
+  background-color: initial !important;
+}
+@media (min-width: 1440px) {
+  .navbar-expand-sm.desktop-only .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.7rem;
+  }
+}
