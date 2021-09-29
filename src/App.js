@@ -8,15 +8,15 @@ function App() {
         <div className="menu-section row menu-mb">
           <div className="col-md-3 "></div>
           <div className="col-xs-12 col-sm-12 col-md-5 header-container">
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark desktop-only">
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark desktop-only ">
               <ul className="navbar-nav">
-                <li className="nav-item"> <a href="#" className="nav-link"> HOME </a> </li>
-                <li className="nav-item"> <a href="#" className="nav-link"> MINT </a> </li>
-                <li className="nav-item"> <a href="#" className="nav-link btn-gradient-1" > STORY </a> </li>
-                <li className="nav-item"> <a href="#" className="nav-link"> WHITEPAPER </a> </li>
-                <li className="nav-item"> <a href="#" className="nav-link"> MARKETPLACE </a> </li>
-                <li className="nav-item"> <a href="#" className="nav-link"> FAQ </a> </li>
-                <li className="nav-item"> <a href="#" className="nav-link"> NEWS </a> </li>
+                <li className="nav-item ml-4"> <a href="/#" className="nav-link"> HOME </a> </li>
+                <li className="nav-item"> <a href="/#" className="nav-link"> MINT </a> </li>
+                <li className="nav-item"> <a href="/#" className="nav-link btn-gradient-1" > STORY </a> </li>
+                <li className="nav-item"> <a href="/#" className="nav-link"> WHITEPAPER </a> </li>
+                <li className="nav-item"> <a href="/#" className="nav-link"> MARKETPLACE </a> </li>
+                <li className="nav-item"> <a href="/#" className="nav-link"> FAQ </a> </li>
+                <li className="nav-item"> <a href="/#" className="nav-link"> NEWS </a> </li>
               </ul>
             </nav>
 
@@ -24,26 +24,26 @@ function App() {
               <div className="container-fluid">
                 <div className="navbar-header">
                   <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
-                    <span> <img src="/assets/images/menubar.png" height="40" width="40" /></span>
+                    <span> <img src="/assets/images/menubar.png" height="40" width="40" alt="" /></span>
                   </button>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                   <ul className="navbar-nav">
-                    <li className="nav-item"> <a href="#" className="nav-link "> HOME </a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link"> MINT </a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link active"> STORY </a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link"> WHITEPAPER </a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link"> MARKETPLACE </a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link"> FAQ </a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link"> NEWS </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link "> HOME </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link"> MINT </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link active"> STORY </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link"> WHITEPAPER </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link"> MARKETPLACE </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link"> FAQ </a> </li>
+                    <li className="nav-item"> <a href="/#" className="nav-link"> NEWS </a> </li>
                     <li className="link-btn">
                       <p className="badge badge-pill badge-info ">
-                        <a>
+                        <a href="/#">
                           <span className="header-btn">MINT</span>
                         </a>
                       </p>
                       <p className="badge badge-pill badge-dark ">
-                        <a>
+                        <a href="/#">
                           <span className="header-btn">CONNECT WALLET</span>
                         </a>
                       </p>
@@ -54,8 +54,8 @@ function App() {
             </nav>
           </div>
           <div className="col-xs-6 col-sm-6 col-md-4 mt-2 link-btn text-right desktop-only">
-            <span className="badge badge-pill badge-info"> <a> <span className="header-btn">MINT</span> </a> </span>
-            <span className="badge badge-pill badge-dark "> <a> <span className="header-btn">CONNECT WALLET</span> </a></span>
+            <span className="badge badge-pill badge-info"> <a href="/#"> <span className="header-btn">MINT</span> </a> </span>
+            <span className="badge badge-pill badge-dark "> <a href="/#"> <span className="header-btn">CONNECT WALLET</span> </a></span>
           </div>
         </div>
         <div className="content-section row">
