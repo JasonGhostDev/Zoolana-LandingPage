@@ -6,7 +6,7 @@ import Layer5 from "./assets/images/Layer-5.png";
 
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
-import { Route, Switch, useLocation, useHistory } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 import {  Image, } from "react-bootstrap";
 
 // background imports
