@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  Row,
-  Col,
-  Image,
+
   Navbar,
   Nav,
   Container,

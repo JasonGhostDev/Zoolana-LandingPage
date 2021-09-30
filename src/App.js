@@ -7,7 +7,7 @@ import Layer5 from "./assets/images/Layer-5.png";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { Route, Switch, useLocation, useHistory } from "react-router-dom";
-import { Row, Col, Image, Nav, Container, Button } from "react-bootstrap";
+import {  Image, } from "react-bootstrap";
 
 // background imports
 import storyBg from "./assets/images/Layer-7.jpeg";
@@ -16,7 +16,7 @@ import homeBg from "./assets/images/gif-export_2.gif";
 const App = () => {
   const [bgImage, setBgImage] = React.useState("");
   const location = useLocation();
-  const history = useHistory();
+ 
 
   React.useEffect(() => {
     if (
