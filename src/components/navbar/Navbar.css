@@ -11,10 +11,9 @@
   background: #000 !important;
 }
 
-.me-auto {
-  margin: auto !important;
-  margin-left: 30% !important;
-  margin-top: 0 !important;
+div.me-auto.navbar-nav {
+  margin: 0 10% !important;
+  margin-left: auto !important;
   padding: 0.5em 1em !important;
   background: #9c9d9e !important;
   border-radius: 0em 0em 1em 1em;
@@ -70,5 +69,12 @@
     margin: auto !important;
     text-align: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1480px) {
+  div.me-auto.navbar-nav {
+    margin: 0 20vw !important;
+    margin-left: auto !important;
   }
 }

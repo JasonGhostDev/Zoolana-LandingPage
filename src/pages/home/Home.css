@@ -1,5 +1,5 @@
 .social_handle_container {
-  margin: -5% 30% 0% !important;
+  margin: 5vh 20vw 2vh !important;
 }
 
 .t_social {
@@ -8,8 +8,9 @@
 }
 
 .logo_image {
-  width: 80vw;
-  margin: auto;
-  margin-top: 5vh;
   display: flex;
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 10vw !important;
 }

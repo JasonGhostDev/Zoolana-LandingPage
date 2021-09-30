@@ -1,5 +1,13 @@
 import React from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import {
+  Row,
+  Col,
+  Image,
+  Navbar,
+  Nav,
+  Container,
+  Button,
+} from "react-bootstrap";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +17,7 @@ const NavbarComponent = () => {
       <Container fluid className="contaniner_navbar">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav style={{ marginLeft: 0, marginRight: 0 }} className="me-auto">
             <NavLink
               exact
               activeClassName="selected-route"
@@ -28,7 +36,7 @@ const NavbarComponent = () => {
             <NavLink
               className="route-link"
               activeClassName="selected-route"
-              to="/story"
+              to="/story1"
             >
               STORY
             </NavLink>
