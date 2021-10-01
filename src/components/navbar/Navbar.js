@@ -34,7 +34,7 @@ const NavbarComponent = () => {
             <NavLink
               className="route-link"
               activeClassName="selected-route"
-              to="/story1"
+              to="/story"
             >
               STORY
             </NavLink>

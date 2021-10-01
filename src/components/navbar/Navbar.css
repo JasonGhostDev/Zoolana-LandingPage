@@ -1,5 +1,5 @@
 .u-btn {
-  padding: 0.5em 1.5em !important;
+  padding: 0.5em calc(1vw+ 0.5em) !important;
   border: none !important;
   border-radius: 1em !important;
 }
@@ -12,9 +12,9 @@
 }
 
 div.me-auto.navbar-nav {
-  margin: 0 10% !important;
+  margin: 0 5vw !important;
   margin-left: auto !important;
-  padding: 0.5em 1em !important;
+  padding: 0.5em 1vw !important;
   background: #9c9d9e !important;
   border-radius: 0em 0em 1em 1em;
   box-shadow: 0px 2px 0px 1px #000;
@@ -25,7 +25,7 @@ div.me-auto.navbar-nav {
 }
 .route-link {
   color: #fff !important;
-  margin: 0.5em;
+  margin: 0.5em 1em;
   text-decoration: none !important;
 }
 
@@ -57,9 +57,9 @@ div.me-auto.navbar-nav {
 @media (max-width: 768px) {
   .me-auto {
     text-align: center;
-    margin: auto !important;
+    margin: auto 10% !important;
     margin-top: 0 !important;
-    padding: 0.5em 1em !important;
+    padding: 0.3em 0.7em !important;
     background: #9c9d9e !important;
     border-radius: 0em 0em 1em 1em;
     box-shadow: 0px 2px 0px 1px #000;

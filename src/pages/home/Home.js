@@ -3,6 +3,8 @@ import { Container, Image, Row, Col } from "react-bootstrap";
 import "./Home.css";
 import zoolanaLogo from "../../assets/images/zoolanaLogo.svg";
 import { Link } from "react-router-dom";
+import DiscordLogo from "../../assets/images/discord.svg";
+import TwitterLogo from "../../assets/images/twitter.svg";
 
 const Home = () => {
   return (
@@ -15,12 +17,12 @@ const Home = () => {
       <Row className="social_handle_container t_text-shadow text-center">
         <Col>
           <Link className="t_social" to="#">
-            TWITTER
+            <Image className="social_image" src={TwitterLogo} alt="logo" />
           </Link>
         </Col>
         <Col>
           <Link className="t_social" to="#">
-            DISCORD
+            <Image className="social_image" src={DiscordLogo} alt="logo" />
           </Link>
         </Col>
       </Row>
