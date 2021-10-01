@@ -3,10 +3,8 @@ import Story from "../../components/story/Story";
 import Tower from "../../assets/images/tower-img.png";
 import Layer5 from "../../assets/images/Layer-5.png";
 import "./Story.css";
-import Navbar from "../../components/navbar/Navbar";
-import Home from "../home/Home";
-import { Route, Switch, useLocation, useHistory } from "react-router-dom";
-import { Row, Col, Image, Nav, Container, Button } from "react-bootstrap";
+
+import {  Image} from "react-bootstrap";
 
 const StoryPage = () => {
   return (
