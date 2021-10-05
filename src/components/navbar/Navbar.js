@@ -1,21 +1,15 @@
 import React from "react";
-import {
-
-  Navbar,
-  Nav,
-  Container,
-  Button,
-} from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
 const NavbarComponent = () => {
   return (
-    <Navbar collapseOnSelect expand="md">
+    <Navbar collapseOnSelect expand="lg">
       <Container fluid className="contaniner_navbar">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav style={{ marginLeft: 0, marginRight: 0 }} className="me-auto">
+          <Nav className="me-auto">
             <NavLink
               exact
               activeClassName="selected-route"
@@ -67,6 +61,7 @@ const NavbarComponent = () => {
               NEWS
             </NavLink>
           </Nav>
+
           <Nav>
             <Nav.Link href="#deets">
               {" "}

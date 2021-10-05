@@ -7,7 +7,6 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { Route, Switch, useLocation } from "react-router-dom";
 
-
 // background imports
 import storyBg from "./assets/images/Layer-7.jpeg";
 import homeBg from "./assets/images/bgHome.svg";
@@ -18,9 +17,16 @@ const App = () => {
 
   React.useEffect(() => {
     if (location.pathname === "/story") {
-      setStyles({ backgroundImage: `url(${storyBg})`, height: "100%" });
+      setStyles({
+        backgroundImage: `url(${storyBg})`,
+        backgroundRepeat: "repeat-y",
+        backgroundSize: "100vw 95vh",
+      });
     } else if (location.pathname === "/") {
-      setStyles({ backgroundImage: `url(${homeBg})`, height: "100vh" });
+      setStyles({
+        backgroundImage: `url(${homeBg})`,
+        height: "100vh",
+      });
     }
   }, [location.pathname]);
 

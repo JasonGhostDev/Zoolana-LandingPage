@@ -1,5 +1,7 @@
 .social_handle_container {
-  margin: 12vh 30vw 1vh !important;
+  margin: auto !important;
+  width: max-content !important;
+  flex-wrap: nowrap !important;
 }
 
 .t_social {

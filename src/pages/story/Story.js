@@ -4,7 +4,8 @@ import Tower from "../../assets/images/tower-img.png";
 import Layer5 from "../../assets/images/Layer-5.png";
 import "./Story.css";
 
-import {  Image} from "react-bootstrap";
+
+import {  Image } from "react-bootstrap";
 
 const StoryPage = () => {
   return (

@@ -3,7 +3,11 @@ import "./Story.css";
 import {
   Row,
   Col,
+  Image,
+  Navbar,
+  Nav,
   Container,
+  Button,
 } from "react-bootstrap";
 
 const Story = ({ leftElement, rightElement, propClass }) => {
@@ -17,6 +21,7 @@ const Story = ({ leftElement, rightElement, propClass }) => {
         <Col md={{ offset: 0 }}>
           <div className="text-left">{leftElement}</div>
         </Col>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <Col md={{ span: 6, offset: 0 }}>{rightElement}</Col>
       </Row>
     </Container>
