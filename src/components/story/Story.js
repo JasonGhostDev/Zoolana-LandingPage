@@ -3,11 +3,9 @@ import "./Story.css";
 import {
   Row,
   Col,
-  Image,
-  Navbar,
-  Nav,
+ 
   Container,
-  Button,
+ 
 } from "react-bootstrap";
 
 const Story = ({ leftElement, rightElement, propClass }) => {
